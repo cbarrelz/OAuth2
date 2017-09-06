@@ -6,7 +6,7 @@
 jazzy \
 	-o "docs" \
 	--min-acl "internal" \
-	--module-version "3.0.3"
+	--module-version "3.0.4"
 
 mkdir docs/assets 2>/dev/null
 cp assets/* docs/assets/
