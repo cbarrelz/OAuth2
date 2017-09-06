@@ -205,9 +205,11 @@ open class OAuth2WebViewController: UIViewController, WKNavigationDelegate {
 			if let hp = haveComponents?.path, let ip = interceptComponents?.path, hp == ip || ("/" == hp + ip) {
 				if onIntercept(url) {
 					decisionHandler(.cancel)
+                    return
 				}
 				else {
 					decisionHandler(.allow)
+                    return
 				}
 			}
 		}
