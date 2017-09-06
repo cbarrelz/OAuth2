@@ -6,7 +6,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name         = "p2.OAuth2_Closure_Fix"
+  s.name         = "p2.OAuth2"
   s.version      = "3.0.4"
   s.summary      = "OAuth2 framework for macOS, iOS and tvOS, written in Swift."
   s.description  = <<-DESC
